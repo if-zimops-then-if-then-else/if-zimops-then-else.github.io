@@ -1,1 +1,0 @@
-UIBK_RNIT_PS_bliggspitze_2021

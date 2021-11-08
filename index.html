@@ -116,17 +116,11 @@ and here etc etc</p>
         <i class="fa fa-envelope" style="width:30px"> </i> Email: simsch538@gmail.com<br>
       </div>
       <div class="w3-col m6">
-        <form action="/if-zimops-then-if-then-else.github.io/action.php" method="post">
-          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
-            <div class="w3-half">
-              <input class="w3-input w3-border" type="text" id="name" name="Name" placeholder="Name" required name="Name">
-            </div>
-            <div class="w3-half">
-              <input class="w3-input w3-border" type="text" id="email" email="Email" placeholder="Email" required name="Email">
-            </div>
-          </div>
-          <input class="w3-input w3-border" type="text" id="message" message="Message" placeholder="Message" required name="Message">
-          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+        <form action="mail.php" method="POST">
+          <p>Name</p> <input type="text" name="name">
+          <p>Email</p> <input type="text" name="email">
+          <p>Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
+          <input type="submit" value="Send"><input type="reset" value="Clear">
         </form>
       </div>
     </div>
